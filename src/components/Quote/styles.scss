@@ -1,0 +1,13 @@
+@import '../../scss/variables';
+
+.Quote {
+  display: block;
+  color: $quote-color;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 500;
+  margin: 30px auto;
+  text-align: center;
+  border: 1px solid $third-color;
+  padding: 20px;
+}

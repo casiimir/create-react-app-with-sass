@@ -1,0 +1,9 @@
+@mixin flex($justify: center, $align: center) {  
+  display: flex;
+  align-items: $align;
+  justify-content: $justify;
+}
+
+@mixin margin-centering {
+  margin: 0 auto;
+}

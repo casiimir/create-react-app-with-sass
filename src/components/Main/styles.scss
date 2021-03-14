@@ -1,0 +1,13 @@
+@import '../../scss/_mixins';
+
+.Main {
+  position: relative;
+  min-height: 600px;
+
+  .Main-content {
+    @include margin-centering; 
+    max-width: 1280px;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+}
